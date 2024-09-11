@@ -1,3 +1,5 @@
+Sure, here's the updated README with the Swagger UI reference in place.
+
 # School Fee Management System
 
 ## Technologies Used
@@ -15,6 +17,14 @@ This project implements a microservices architecture with three main services:
 * **Student Service:** Manages student details, including grades.
 * **Catalog Service:** Stores and provides information about the fee catalog.
 * **Fee Collection Service:** Orchestrates the fee collection process, interacting with the Student Service and Catalog Service.
+
+## API Documentation
+
+Detailed API documentation is available through Swagger UI. After running the project, you can access the Swagger UI for each service at the following links:
+
+* **Student Service:** http://localhost:8081/swagger-ui/index.html
+* **Catalog Service:** http://localhost:8082/swagger-ui/index.html
+* **Fee Collection Service:** http://localhost:8083/swagger-ui/index.html
 
 ## How to Run the Project
 
