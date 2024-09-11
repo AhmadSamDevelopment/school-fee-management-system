@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: fee-collection-service
+
+server:
+  port: 8082
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+integration:
+  catalog-service:
+    base-url: http://host.docker.internal:8081
+  student-service:
+    base-url: http://host.docker.internal:8082

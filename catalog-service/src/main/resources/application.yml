@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: catalog-service
+
+server:
+  port: 8081
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
