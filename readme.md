@@ -18,6 +18,20 @@ This project implements a microservices architecture with three main services:
 * **Catalog Service:** Stores and provides information about the fee catalog.
 * **Fee Collection Service:** Orchestrates the fee collection process, interacting with the Student Service and Catalog Service.
 
+## Entity Relationship Diagrams (ERDs)
+
+### Catalog Service
+
+![Catalog Service ERD](https://i.ibb.co/qYRvd1G/catalog-service.png)
+
+### Fee Collection Service
+
+![Fee Collection Service ERD](https://i.ibb.co/fntWG52/fee-collection-service.png)
+
+### Student Service
+
+![Student Service ERD](https://i.ibb.co/yBkM8gk/student-service.png)
+
 ## API Documentation
 
 Detailed API documentation is available through Swagger UI. After running the project, you can access the Swagger UI for each service at the following links:
